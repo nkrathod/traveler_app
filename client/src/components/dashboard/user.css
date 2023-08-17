@@ -1,0 +1,101 @@
+.userBackground {
+  background-image: url("https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80");
+  background-color: #cccccc;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  color: #ffffff;
+  padding: 25px 60px;
+}
+
+.serach-bus {
+  width: 400px;
+  border: 2px solid #cccccc;
+  text-align: center;
+  padding: 5px 10px;
+  font-size: calc(10px + 2vmin);
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.search-result {
+  margin-top: 50px;
+  padding: 10px 20px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+}
+
+.adminBackground {
+  padding: 50px 100px;
+}
+
+.serach-bus-admin {
+  width: 600px;
+  border: 2px solid #cccccc;
+  text-align: center;
+  padding: 5px 10px;
+  font-size: calc(10px + 2vmin);
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.srchField {
+  margin-top: 0px !important;
+  margin-right: 20px;
+}
+
+.editBtn {
+  margin-right: 5px;
+}
+.left-card {
+  float: right;
+}
+.user-details {
+  border: 2px solid #cccccc;
+  padding: 10px 15px;
+  /* font-size: calc(10px + 2vmin); */
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.user-details-header {
+  text-align: center;
+  border-bottom: 2px solid #cccccc;
+  margin-bottom: 20px;
+}
+.seat-details {
+  border: 2px solid #cccccc;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.seat-details .form-row {
+  padding: 10px 10px 25px 25px;
+  background-image: url("../../busTopView.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rotate-seat {
+  transform: rotate(90deg);
+  margin-left: 15px;
+}
+.fa-couch {
+  color: #1eed63;
+  margin-top: 15px;
+}
+.booked {
+  color: rgb(237, 60, 60) !important;
+}
+.selectedSeat {
+  color: #205ccb !important;
+}
+.seat-info {
+  text-align: center;
+}
+.booking-info {
+  margin: 20px 20px 10px 25px;
+  border-radius: 10px;
+  border: 2px solid #cccccc;
+  text-align: center;
+  padding: 20px;
+}

@@ -1,0 +1,63 @@
+.fa-bus {
+  margin-right: 10px;
+}
+
+.homeBackground {
+  background-image: url("https://images.unsplash.com/photo-1570125909517-53cb21c89ff2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+  background-color: #cccccc;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.d-block {
+  height: 400px;
+}
+
+.loginPage {
+  text-align: center;
+}
+.login-header {
+  background-color: #282c34;
+  min-height: 92vh;
+  color: white;
+  font-size: calc(10px + 2vmin);
+}
+.form_div {
+  width: 400px;
+  margin: auto;
+}
+.login-bus {
+  width: 400px;
+  height: 200px;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.form-row {
+  margin-top: 20px;
+}
+.fa-eye {
+  color: #282c34;
+}
+/* .eye-icon{
+    color: #282c34;
+    margin-left: "-30px";
+    margin-top: "15px";
+    cursor: "pointer";
+    z-index: 2;
+} */
+
+@media screen and (max-width: 480px) {
+  .form_div {
+    width: 300px;
+    margin: auto;
+  }
+  .login-bus {
+    width: 300px;
+    height: 150px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}
